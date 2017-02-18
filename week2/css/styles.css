@@ -543,7 +543,7 @@ svg:hover{
 .media-items img{
 	display: block;
 	width: 55%;
-	height: 35%;
+	max-height: 4em;
 	margin: 0 auto;
 }
 
@@ -555,7 +555,7 @@ svg:hover{
 	letter-spacing: 0.1em;
 	margin-top: 0;
 	margin-left: auto;
-	height: 6rem;
+	height: 6em;
 	overflow: hidden;
 }
 
@@ -580,12 +580,13 @@ svg:hover{
 @media only screen  and (min-width: 20em){
 	.media-items label{
 		max-width: 66%;
+		-webkit-flex: 1 1 15em;
 	}
 	.media-items img{
 		margin: inherit;
 		margin-right: .5em;
 		width: 30%;
-		height: 35%;
+		max-height: 6em;
 	}
 }
 
