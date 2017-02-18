@@ -327,9 +327,9 @@ form {
 }
 
 label {
-	font-size: 1.2em;
+	// font-size: 1.2em;
   margin-bottom: 0.2em;
-  display: flex;
+  // display: flex;
   align-items: center;
 }
 
@@ -437,11 +437,6 @@ nav ol {
   margin-right: 0.1rem;
 }
 
-nav > ol li a, span, nav > ol li {
-	font-size: 1.1em;
-
-}
-
 /* progressbar styling */
 progress {
 	width: 100%;
@@ -512,7 +507,6 @@ svg:hover{
 	transition: .25s;
 	transform: scale(1.5);
 	stroke: 1em;
-
 }
 
 .emoticons-rating label{
@@ -555,6 +549,7 @@ svg:hover{
 
 .media-items p{
 	line-height: 160%;
+	font-size: 1.2em;
 	text-align: justify;
 	word-spacing: -0.2em;
 	letter-spacing: 0.1em;
