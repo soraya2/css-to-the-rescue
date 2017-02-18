@@ -1,3 +1,4 @@
+// #ff5858 red color
 /* general styling */
 html , body {
 	width: 100%;
@@ -34,9 +35,9 @@ h1 {
 section {
 	display: inherit;
 	flex-basis: 90%;
-	// background-color: #ffffff;
 	margin: 2em 1em;
 	max-width: 19em;
+	background-color: #ffffff;
 }
 
 progress {
@@ -105,6 +106,38 @@ nav > ul li > ul {
 	display: none;
 }
 
+/* chat */
+ol{
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	min-height: 77%;
+	padding: 0 0.5rem;
+}
+
+ol li{
+  min-width: 75%;
+  max-width: 80%;
+  margin: 1em 0;
+  color: #333333;
+}
+
+
+ol li:nth-child(odd){
+  background: rgba(255,88,8,.5);
+  padding: 1em;
+  border-radius: 1.5em;
+  align-self: flex-end;
+
+}
+
+ol li:nth-child(even){
+  background: rgba(255,88,88,.8);
+  padding: 1em;
+  border-radius: 1.5em;
+
+}
+
 /* main */
 main {
 	margin: 2em 0;
@@ -165,6 +198,7 @@ progress[value] {
   width: 100%;
   height: 2rem;
 }
+
 /* Reset the default appearance */
 progress[value] {
   -webkit-appearance: none;
@@ -252,7 +286,7 @@ progress[value]::-moz-progress-bar {
 
 }
 
-@media only screen  and (min-width: 40.000em) and (max-width: 50.000em) {
+@media only screen  and (min-width: 40em) and (max-width: 50em) {
 
 
 form {
@@ -283,7 +317,7 @@ form div a {
 
 }
 
-@media only screen  and (min-width: 35.000em){
+@media only screen  and (min-width: 35em){
 	body > nav > ul {
 		display: flex;
 
