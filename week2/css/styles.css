@@ -538,6 +538,7 @@ svg:hover{
 .media-items article{
 	display: flex;
   flex-wrap: wrap;
+
 }
 
 .media-items img{
@@ -580,7 +581,7 @@ svg:hover{
 @media only screen  and (min-width: 20em){
 	.media-items label{
 		max-width: 66%;
-		-webkit-flex: 1 1 15em;
+		flex: 1 1 15em;
 	}
 	.media-items img{
 		margin: inherit;
